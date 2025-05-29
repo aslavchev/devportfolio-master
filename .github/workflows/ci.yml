@@ -15,7 +15,7 @@ jobs:
 
       - name: Run HTML Linter
         uses: github/super-linter@v4 #github/super-linter@v5
-        continue-on-error: true
+        # continue-on-error: true
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
